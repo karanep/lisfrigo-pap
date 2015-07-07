@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="main.java.com.lisfrigo.hibernate.cliente.bean.Cliente"
+		table="Cliente">
+		<id column="idCliente" name="idCliente" type="java.lang.Integer">
+			<generator class="increment" />
+		</id>
+		<property column="nome" name="nome" type="java.lang.String" />
+		<property column="morada" name="morada" type="java.lang.String" />
+		<property column="cod_postal" name="cod_postal" type="java.lang.String" />
+		<property column="distrito" name="distrito" type="java.lang.Integer" />
+		<property column="localidade" name="localidade" type="java.lang.String" />
+		<property column="telefone" name="telefone" type="java.lang.String" />
+		<property column="fax" name="fax" type="java.lang.String" />
+		<property column="email" name="email" type="java.lang.String" />
+		<property column="observacoes" name="observacoes" type="java.lang.String" />
+		<property column="concelho" name="concelho" type="java.lang.String" />
+	</class>
+</hibernate-mapping>

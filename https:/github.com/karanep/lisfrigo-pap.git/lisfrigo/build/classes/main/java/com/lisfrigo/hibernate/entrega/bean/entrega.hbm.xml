@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="main.java.com.lisfrigo.hibernate.entrega.bean.Entrega"
+		table="Entrega">
+		<id column="identrega" name="identrega" type="java.lang.Integer">
+			<generator class="increment" />
+		</id>
+		<property column="data" name="data" type="java.lang.String" />
+		<property column="idtrans" name="idtrans" type="java.lang.Integer" />
+		<property column="idcliente" name="idcliente" type="java.lang.Integer" />
+		<property column="idprops" name="idprops" type="java.lang.Integer"/>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="main.java.com.lisfrigo.hibernate.departamento.bean.Departamento"
+		table="Departamento">
+		<id column="iddepartamento" name="iddep" type="java.lang.Integer">
+			<generator class="increment" />
+		</id>
+		<property column="nome" name="nome" type="java.lang.String" />
+	</class>
+</hibernate-mapping>

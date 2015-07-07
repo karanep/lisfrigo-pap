@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+
+body {
+	
+}
+
+.dropdown-menu>li {
+	color: red;
+}
+
+.navbar-fixed-bottom .dropdown .caret {
+	content: "";
+	border-top: 20;
+	border-bottom: 4px solid;
+}
+
+.footer_bottom {
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+
+.img_header {
+	margin-right: 10%;
+	padding-left: 10%;
+}
+
+
+form {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-topm: 5%;
+}
